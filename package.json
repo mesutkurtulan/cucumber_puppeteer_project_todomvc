@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-puppeteer_project",
+  "version": "1.0.0",
+  "description": "Puppeteer with Cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Cucumber",
+    "Gherkin",
+    "Js"
+  ],
+  "author": "Mesut KURTULAN",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "puppeteer": "^10.2.0"
+  }
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "todo-list;add-the-first-item-to-the-todo-list",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Add the first item to the TODO list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Empty ToDo list",
+            "match": {
+              "location": "features\\support\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I write \"buy some milk\" to <textbox> and press <enter>",
+            "match": {
+              "location": "features\\support\\steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"buy some milk\" item in ToDo list",
+            "match": {
+              "location": "features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-list;add-the-second-item-to-the-todo-list-below-the-first-item",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add the second item to the TODO list below the first item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "ToDo list with \"buy some milk\" item",
+            "match": {
+              "location": "features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I write \"enjoy the assignment\" to <textbox> and press <enter>",
+            "match": {
+              "location": "features\\support\\steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"enjoy the assignment\" item insterted to ToDo list below \"buy some milk\" item",
+            "match": {
+              "location": "features\\support\\steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-list;mark-item-as-done",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Mark item as DONE",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "ToDo list with \"buy some milk\" item",
+            "match": {
+              "location": "features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on <checkbox> next to \"buy some milk\" item",
+            "match": {
+              "location": "features\\support\\steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see \"buy some milk\" item marked as DONE",
+            "match": {
+              "location": "features\\support\\steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 394000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-list;mark-item-as-undone",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Mark item as UNDONE",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 944000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "ToDo list with marked item",
+            "match": {
+              "location": "features\\support\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on <checkbox> next to \"buy some milk\" item",
+            "match": {
+              "location": "features\\support\\steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see \"buy some milk\" item marked as UNDONE",
+            "match": {
+              "location": "features\\support\\steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 472000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-list;emptying-the-list",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Emptying the list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "ToDo list with \"rest for a while\" item",
+            "match": {
+              "location": "features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click on <delete button> next to \"rest for a while\" item",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "List should be empty",
+            "match": {
+              "location": "features\\support\\steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todo-list;deleting-the-second-item-in-the-todo-list",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Deleting the second item in the ToDo list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "ToDo list with \"rest for a while\" and \"drink water\" item in order",
+            "match": {
+              "location": "features\\support\\steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click on <delete button> next to \"rest for a while\" item",
+            "match": {
+              "location": "features\\support\\steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see \"drink water\" item in ToDo list",
+            "match": {
+              "location": "features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 352000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "todo-list",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ToDo list",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
